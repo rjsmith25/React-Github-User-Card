@@ -1,0 +1,38 @@
+body {
+  background-color: #b0bbc9;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 30%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+}
+
+.card-info {
+  padding: 10px;
+}
+
+.card-info p {
+  word-wrap: break-word;
+}
+
+.card:nth-child(3n) {
+  margin-right: 0;
+}
+
+.responsive-img {
+  width: 100%;
+}
